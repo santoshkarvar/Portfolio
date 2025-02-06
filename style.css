@@ -1,0 +1,183 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(sk1.jpg);
+    image-resolution: 0.3;
+    
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #5e86d0;
+    color: #83088f;
+    padding: 20px;
+    text-align: center;
+    
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ffc107;
+    margin-left: 20px;
+}
+
+nav{
+    
+}
+nav ul {
+    list-style:none;
+    padding: 15px;
+    margin-right: 10px;
+    background-color: rgba(196, 176, 45, 0.4);
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+    font-family: cursive;
+    font-size: 25px;
+    
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background:rgba(114, 170, 104, 0.4);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    border-radius: 8px;
+    border: 2px solid green;
+    margin-right: 40px;
+   text-align: left;
+
+   
+}
+
+
+h2 {
+    color: #343a40;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background:rgb(55, 109, 166, 0.9);
+    color: #fff;
+   font-size: large;
+}
+    
+
+.footer-link {
+    color: #ffc107;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #ffeb3b;
+}
+
+/* Button Styling */
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button i {
+    margin-right: 8px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Form Styling */
+.hidden-form {
+    display: none;
+}
+s
+/* General styling */
+.hidden-form {
+    display: none;
+}
+
+.show-form {
+    display: block;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #218838;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.about{
+    background:orange;
+}
+p{
+    font-size: 16px;
+}
